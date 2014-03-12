@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/about" >
+        <PreferenceScreen
+            android:key="@string/about"
+            android:title="@string/about" >
+            <Preference
+                android:key="@string/version"
+                android:summary="@string/version_num"
+                android:title="@string/version" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/help" >
+        <Preference
+            android:key="@string/help"
+            android:title="@string/help" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/changeime" >
+        <Preference
+            android:key="@string/changeime"
+            android:title="@string/click_to_change" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/floatViewS">
+        <CheckBoxPreference
+            android:key="@string/floatViewS"
+            android:title="@string/toogle_to_open" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/quit" >
+        <Preference
+            android:key="@string/quit"
+            android:title="@string/quit" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
